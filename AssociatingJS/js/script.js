@@ -1,18 +1,21 @@
 //JavaScript
-//Expressions - Assignment Operators
-
-var a = 3;
-a ++ 1; //a = a + 1
-
+//Prompts and Alerts
 
 /*
-a += 4; //a = a + 4
-a *= 4; //a = a * 4
-a /= 4; //a = a / 4
-a -= 4; //a = a - 4
+var userInput = prompt("Enter your year of birth:");
+
+console.log(userInput);
 */
 
-console.log(a);
+var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width:");
+var height = prompt("Please enter the height:");
+var area = width * height;
+var result = "The area of your rectangle is: " + area + "sq feet";
+
+//console.log(area);
+alert(result);
+
+
 
 
 
