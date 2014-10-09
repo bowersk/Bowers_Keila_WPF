@@ -1,8 +1,24 @@
 //JavaScript
-//Expressions - Arrays
+//Concatenating (strings)
 
-var orangeBins = [234, 567, 883 ];
+/*
+var firstName = "Keila";
+var lastName = "Bowers";
 
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+var fullName = firstName + " " +  lastName;
 
-console.log(total);
+console.log(fullName);
+
+*/
+
+var a = 6;
+var b = 7;
+
+var result = a + b;
+console.log(result); //strings can only be combined
+
+
+
+
+
+
