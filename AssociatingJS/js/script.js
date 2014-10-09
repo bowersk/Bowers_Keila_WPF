@@ -1,19 +1,19 @@
 //JavaScript
-//Casting
+//Expressions - Assignment Operators
+
+var a = 3;
+a ++ 1; //a = a + 1
+
 
 /*
-var stringVar = "6";
-var result = 7 + Number(stringVar);
-
-console.log(result);
+a += 4; //a = a + 4
+a *= 4; //a = a * 4
+a /= 4; //a = a / 4
+a -= 4; //a = a - 4
 */
 
-var areaCode = 407;
-var firstPart = 203;
-var secPart = 4529;
+console.log(a);
 
-var phoneNo = "(" + String(areaCode) ")" + String(firstPart) + "-" + String(secPart);
-console.log(phoneNo);
 
 
 
