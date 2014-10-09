@@ -1,10 +1,13 @@
 //JavaScript
 
-var age = 38; //Number Variable
-var isStudent = false; //Booleans
+var muppetNames = ["Kermit", "Miss Piggy"]; //Index # 0,1,2,3
 
+muppetNames[1] = "Rizzo";
+muppetNames[2] = "Fozzy";
 
-var firstName = "Keila";
+var num = 1;
 
-var phrase = 'I don\'t know \n You\'ll have to speak with the professor'; // Use escape op. the backslash and \n for new line
+console.log(muppetNames[num]);
 
+//array holds collections
+//array access notations help us access the array
