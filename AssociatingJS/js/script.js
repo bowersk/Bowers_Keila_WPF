@@ -1,5 +1,13 @@
 //JavaScript
 
-//Naming Variables (avoid special characters; meaningful; use camelCase; begin with lowercase letters)
+/*
+var age; //declaration
+age = 24; //assignment operator and Definition
 
-var age;
+//storage container = value
+*/
+
+var yearOfBirth = 1970; //declaring and defining on the same line
+
+
+
