@@ -1,10 +1,6 @@
 //JavaScript
-//Expressions - Arithmetic Operators
+//Expressions - Modulo Operator  % find the reminder
 
-//area of the triangle is half the width times the height
+var remainder = 9 % 2;
 
-var width = 4;
-var height = 5;
-var area = width * height/2;
-
-console.log(area);
+console.log(remainder);
