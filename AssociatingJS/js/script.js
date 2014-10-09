@@ -1,13 +1,7 @@
 //JavaScript
+//Expressions
 
-var muppetNames = ["Kermit", "Miss Piggy"]; //Index # 0,1,2,3
-
-muppetNames[1] = "Rizzo";
-muppetNames[2] = "Fozzy";
-
-var num = 1;
-
-console.log(muppetNames[num]);
-
-//array holds collections
-//array access notations help us access the array
+var a = 2
+var b;
+b = a+3;
+console.log(a);
