@@ -1,11 +1,5 @@
 //JavaScript
 
-var yearBorn = 1955;
+//Naming Variables (avoid special characters; meaningful; use camelCase; begin with lowercase letters)
 
-//Printing to the console
-/*
-console.log("Hello World!");
-console.log(yearBorn);
-    */
-
-alert(yearBorn);
+var age;
