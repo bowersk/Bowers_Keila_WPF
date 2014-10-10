@@ -44,3 +44,30 @@ console.log("Sparky got " + resultsSparky + " slices of pizza.");
 
 
 
+
+//Average Shopping Bill -
+
+var grocery = [200, 300, 400, 200, 200];
+
+var groceryTotal = grocery[0] + grocery[1] + grocery[2] + grocery[3] + grocery[4];
+var groceryAverage = groceryTotal / 5
+
+console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks. That is an average of $" + groceryAverage + " per week.");
+
+
+
+
+//Discounts -
+
+var orgPrice = 200;
+var discountPerc = 15;
+var desc = "Coat";
+var tax = 6;
+
+var priceNoTax = orgPrice * discountPerc /100;
+var resultTax = priceNoTax * 6 /100;
+var priceTax = priceNoTax + resultTax;
+
+console.log("Your " + desc + " was originally $" + orgPrice + ", but after a " + discountPerc + "% discount, it is now $" + priceNoTax + " without tax, and $" + priceTax + " with tax.");
+
+
