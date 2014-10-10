@@ -5,15 +5,16 @@
  October 9, 2014
  */
 
-//Calculating if you will have enough pie to feed everyone PI 3.14 %
+//Calculating if you will have enough pie to feed everyone PI 3.14 slices
 
-alert("Do you have enough pie to feed everyone PI %?")
+alert("Do you have enough pie to feed everyone PI slices?")
 
 var pies = prompt("How many pies do you have?");
+var pieSlices = prompt("How many slices are in each pie?")
 var people = prompt("How many people do you need to feed?");
-var pi = 3.14
+var piSlices = 3.14
 
-var neededPie = (pies * people * pi /100);
+var neededPie = (pies * pieSlices) / people * piSlices;
 var remainingPie = neededPie % 100;
 
 console.log(remainingPie);
