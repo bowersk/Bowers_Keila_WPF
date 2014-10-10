@@ -15,4 +15,6 @@ var wordCountTotal = prompt("Please enter the total word count for your article.
 var phraseDensity = phrasePresence * phraseWordCount / wordCountTotal * 100;
 
 console.log("Your SEO keyword density is " + phraseDensity + "%. " );
+alert("Your SEO keyword density is " + phraseDensity + "%. " );
+
 
