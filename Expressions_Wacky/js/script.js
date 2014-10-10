@@ -14,8 +14,9 @@ var pieSlices = prompt("How many slices are in each pie?")
 var people = prompt("How many people do you need to feed?");
 var piSlices = 3.14
 
-var neededPie = (pies * pieSlices) / people * piSlices;
-var remainingPie = neededPie % 100;
+var totalSlices = pies * pieSlices;
+var slicesPerPerson = people * piSlices;
+var remainingPie = totalSlices % slicesPerPerson;
 
 console.log(remainingPie);
 
