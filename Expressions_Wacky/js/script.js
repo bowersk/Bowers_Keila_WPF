@@ -13,7 +13,7 @@ var pies = prompt("How many pies do you have?");
 var people = prompt("How many people do you need to feed?");
 var pi = 3.14
 
-var remainingPie = ();
+var remainingPie = (pies * people * pi /100);
 
 console.log();
 
