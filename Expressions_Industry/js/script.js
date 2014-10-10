@@ -5,9 +5,9 @@
  October 9, 2014
  */
 
-//Figure out keyword density for search engine optimization."
+//Figure out keyword density for search engine optimization.
 
-
+alert()
 var phrasePresence = prompt();
 var phraseWordCount = prompt();
 var wordCountTotal = prompt();
