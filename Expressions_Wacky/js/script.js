@@ -7,8 +7,10 @@
 
 //Calculating if you will have enough pie to feed everyone PI 3.14 %
 
-var pies = prompt();
-var people = prompt();
+alert("Do you have enough pie to feed everyone PI %?")
+
+var pies = prompt("How many pies do you have?");
+var people = prompt("How many people do you need to feed?");
 var pi = 3.14
 
 var remainingPie = ();
