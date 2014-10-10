@@ -13,10 +13,13 @@ alert("Welcome, " + name + ", we are going to figure out how much it will cost y
 
 var popDaily = prompt("How many cans of pop do you drink daily?");
 var popDays = prompt("How many days would you like to budget for?");
-var popCostPack = prompt("How much does it currently cost for a twelve pack of your pop?");
+var popCostPack = prompt("How much money does it currently cost for a twelve pack of your pop?");
 
 var popCostSingle = popCostPack / 12;
 var popTotal = popCostSingle * popDaily * popDays;
 
 console.log(name + ", if you continue to drink " + popDaily + " cans of pop per day, for " + popDays + " days, it will cost you a total of $" + popTotal + ".");
 alert(name + ", if you continue to drink " + popDaily + " cans of pop per day, for " + popDays + " days, it will cost you a total of $" + popTotal + ".");
+
+
+//completed
