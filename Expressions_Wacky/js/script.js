@@ -18,6 +18,6 @@ var totalSlices = pies * pieSlices;
 var slicesPerPerson = people * piSlices;
 var remainingPie = totalSlices % slicesPerPerson;
 
-console.log(remainingPie);
+console.log("With " + pies + " pies and " + people + " to feed, you will have a remainder of "  + remainingPie + " slices left over.");
 
 
