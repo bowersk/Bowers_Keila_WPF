@@ -1,25 +1,28 @@
 //JavaScript
-//ScreenCast - If and Else
+//ScreenCast - else if (three of more)
 
 
-var kidHeight = 52;
+var kidHeight = 46;
 var minHeight = 48;
+var wParentHeight = 45;
 
 
 //if the kid is over 48 inches in height
 
 if(kidHeight > minHeight){
+    //you can ride!
     console.log("You can ride the coaster!")
+}else if(kidHeight > wParentHeight){
+    //you can ride with a parent present
+    console.log("You can ride, but only with a parent present.");
 }else{
-    console.log("Sorry kid, you've got some growing to do first!")
+    //sorry you have growing to do
+    console.log("Sorry kid, you've got some growing to do first!");
 }
 
 
 
 
-/*if(kidHeight <= minHeight){
-  console.log("Sorry kid, you've got some growing to do first!")
-}
 
-*/
+
 
