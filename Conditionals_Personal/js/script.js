@@ -13,7 +13,10 @@ var watts = prompt("Please enter wattage.");
 var volts = prompt("Please enter voltage.");
 var current = (watts / volts);
 
-
+if(current >= 200){
+    alert("Your current load is: " + current + "amps. \nYou will need to use 4/0 gauge cable.");
+    console.log("Your current load is: " + current + "amps. \nYou will need to use 4/0 gauge cable.");
+}
 
 console.log(watts);
 console.log(volts);
