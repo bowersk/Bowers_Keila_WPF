@@ -10,8 +10,18 @@
 alert("Welcome, we will figure out what gauge of cable you need based on current load. \nWe will first need to determine current.");
 
 var watts = prompt("Please enter wattage.");
+if(watts === ""){
+    watts = prompt("You will need to enter wattage before you can continue.");
+}
+
 var volts = prompt("Please enter voltage.");
+if(volts === ""){
+    volts = prompt("You will need to enter voltage before you can continue.");
+}
+
 var current = (watts / volts);
+
+
 
 if(current >= 200){
     alert("Your current load is: " + current + "amps. \nYou will need to use 4/0 gauge cable.");
