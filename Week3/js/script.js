@@ -1,5 +1,5 @@
 //JavaScript
-//ScreenCast - else if (three of more)
+//ScreenCast - logical Operators
 
 
 var kidHeight = 46;
