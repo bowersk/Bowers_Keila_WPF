@@ -16,6 +16,12 @@ var current = (watts / volts);
 if(current >= 200){
     alert("Your current load is: " + current + "amps. \nYou will need to use 4/0 gauge cable.");
     console.log("Your current load is: " + current + "amps. \nYou will need to use 4/0 gauge cable.");
+}else if(current <= 100 ){
+    alert("Your current load is: " + current + "amps. \nYou will need to use 1/0 gauge cable.");
+    console.log("Your current load is: " + current + "amps. \nYou will need to use 1/0 gauge cable.");
+}else{
+    alert("Your current load is: " + current + "amps. \nYou will need to use 2/0 gauge cable.");
+    console.log("Your current load is: " + current + "amps. \nYou will need to use 2/0 gauge cable.");
 }
 
 console.log(watts);
