@@ -1,12 +1,11 @@
 //JavaScript
-//ScreenCast - While Loop
-
-//
-var b = 10; //setups the index
+//ScreenCast - Do While Loop
 
 
-//checks the condition +
-while (b > 0){
-    console.log(b + " Kegs ong the wall");
-    b--; //decrement or increment ++
+var c = 10;
+
+do{
+    console.log(c + " kegs on the wall");
+    c--;
 }
+while(c>0);
