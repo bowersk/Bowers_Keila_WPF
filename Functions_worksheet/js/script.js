@@ -19,7 +19,9 @@ var result = calculateCir(radius, pi);
 //prints result variable to console in a string
 console.log("The circumference of the circle is "  + result + ".");
 
+//Basic function structure to calc circumference.
+//the function is given a name and in the "()" are the parameters to store the information given by the var
 function calculateCir(r, p )
-{
+{   //In the brackets is the action. We are using the return to send the answer back out of the function
     return r * p;
 }
