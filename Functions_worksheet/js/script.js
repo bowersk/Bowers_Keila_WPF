@@ -33,12 +33,20 @@ function calculateCir(r, p )
 //Figure out how many bee stings would it take to kill an animal based on weight
 //Weight * Bee stings per pound (8.666666667)
 
+//asks user for weight
 var weight = prompt("Please enter the weight of the animal.");
+//prints weight given to console so teacher can view
 console.log(weight);
+//creates variable for bee stings per pound
 var beeSting = 8.666666667;
+//declares answer return from function as a var. (Uses arguments)
 var result = deathByBee(weight, beeSting);
+//Prints result given by function to console with string
 console.log("It would take " + result + " bee stings to kill an animal that weighs " + weight + " pounds.")
 
+//function that figures out how many bee stings it would take to kill an animal by pounds
 function deathByBee(w, b){
     return Math.round(w * b);
 }
+
+//completed
