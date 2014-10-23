@@ -35,3 +35,7 @@ function calculateCir(r, p )
 
 var weight = ;
 var beeSting = 8.666666667;
+
+function deathByBee(w, b){
+    return Math.round(w * b);
+}
