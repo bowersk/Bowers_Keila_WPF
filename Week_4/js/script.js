@@ -1,5 +1,5 @@
 //JavaScript
-//ScreenCast - Basic Function
+//ScreenCast - Function Invocation
 
 /*
 The structure
@@ -8,6 +8,8 @@ The structure
 
  */
 
+
+//creates the function (Defines)
 function outptMsg(){
     console.log("Hellow World");
 }
@@ -19,6 +21,9 @@ function calcArea(){
     console.log(area);
 }
 
+// calling or invoking (runs)
+
+calcArea();
 
 
 
