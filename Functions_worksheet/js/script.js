@@ -32,3 +32,6 @@ function calculateCir(r, p )
 
 //Figure out how many bee stings would it take to kill an animal based on weight
 //Weight * Bee stings per pound (8.666666667)
+
+var weight = ;
+var beeSting = 8.666666667;
