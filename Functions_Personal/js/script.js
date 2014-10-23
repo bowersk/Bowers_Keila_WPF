@@ -5,3 +5,14 @@
  October 23, 2014
  */
 
+//Christmas Budget
+
+var totalBudget = prompt("How much money can you devote to Christmas this year?");
+var totalChildren = prompt("How many children do you have to shop for?");
+
+var resultPerChild = amountPerChild(totalBudget, totalChildren);
+
+
+function amountPerChild(budget, children){
+    return budget/children
+}
