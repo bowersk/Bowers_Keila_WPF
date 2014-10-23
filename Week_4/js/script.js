@@ -1,15 +1,23 @@
 //JavaScript
-//ScreenCast - Intro to Functions Reusable
+//ScreenCast - Basic Function
 
-/* Why do we need functions?
-    DRY - Don't Repeat Yourself
+/*
+The structure
+    function functionName() {
+    }
 
-    Functions store stuff
-        functions store lines of code
-
-    one instance that is referenced over and over again
-    They organize code
  */
+
+function outptMsg(){
+    console.log("Hellow World");
+}
+
+function calcArea(){
+    var width = 20;
+    var height = 30;
+    var area = width * height;
+    console.log(area);
+}
 
 
 
