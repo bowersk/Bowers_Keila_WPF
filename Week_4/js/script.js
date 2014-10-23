@@ -1,11 +1,11 @@
 //JavaScript
-//ScreenCast - Do While Loop
+//ScreenCast - For loop
 
 
-var c = 10;
+//shorthand version of the loops - combination of the loops
 
-do{
-    console.log(c + " kegs on the wall");
-    c--;
+for (var i = 10; i > 0; i--);{
+    console.log(i + "kegs on the wall")
 }
-while(c>0);
+
+
