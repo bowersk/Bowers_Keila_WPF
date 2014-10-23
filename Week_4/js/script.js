@@ -1,24 +1,12 @@
 //JavaScript
-//ScreenCast - Anonymous Functions
+//ScreenCast - While Loop
 
-/*
-also called closures
-
-
- */
+//
+var b = 10; //setups the index
 
 
-//more common structure
-var calcArea = function(width, height){
-   var area = width * height;
-    return area;
-
+//checks the condition +
+while (b > 0){
+    console.log(b + " Kegs ong the wall");
+    b--; //decrement or increment ++
 }
-
-var a = calcArea(20, 30);
-console.log(a);
-
-//downside have to be declared before they are called
-
-
-//anoy is for code brevity and better scope
