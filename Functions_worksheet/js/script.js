@@ -33,8 +33,10 @@ function calculateCir(r, p )
 //Figure out how many bee stings would it take to kill an animal based on weight
 //Weight * Bee stings per pound (8.666666667)
 
-var weight = ;
+var weight = prompt("Please enter the weight of the animal.");
+console.log(weight);
 var beeSting = 8.666666667;
+var result = deathByBee(weight, beeSting);
 
 function deathByBee(w, b){
     return Math.round(w * b);
