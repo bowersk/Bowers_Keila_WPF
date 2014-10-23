@@ -26,3 +26,5 @@ function calculateCir(r, p )
 {   //In the brackets is the action. We are using the return to send the answer back out of the function
     return r * p;
 }
+
+//completed
