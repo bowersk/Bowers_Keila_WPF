@@ -9,3 +9,5 @@ for (var i = 10; i > 0; i--);{
 }
 
 
+//break; jumps out of loop
+//continue; jump back up done with this iteration
