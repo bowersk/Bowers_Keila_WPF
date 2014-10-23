@@ -37,6 +37,7 @@ var weight = prompt("Please enter the weight of the animal.");
 console.log(weight);
 var beeSting = 8.666666667;
 var result = deathByBee(weight, beeSting);
+console.log("It would take " + result + " bee stings to kill an animal that weighs " + weight + " pounds.")
 
 function deathByBee(w, b){
     return Math.round(w * b);
