@@ -1,28 +1,41 @@
 //JavaScript
-//ScreenCast - Variable Scope
+//ScreenCast - arguments and parameters
 
 /*
 The structure
     function functionName() {
     }
 
+Arguments - Call
+    funcName(argument1);
+Parameter - define
+
  */
 
-var width = 5;
+/*
+//item being stored - argument
+calcArea(30, 20)
 
-//creates the function (Defines)
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-   // console.log(area); // uses var within function
+//storage bins - parameter
+function calcArea(w, h){
+    var area = w * h;
+    console.log(area);
+}
+*/
+
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + "years old.");
 }
 
-console.log(width); //use var outside function
-// calling or invoking (runs)
+//number we pass in ()
 
-calcArea();
+var age1 = 4;
+dogYears(age1);
+dogYears(5);
+
 
 
 
