@@ -9,16 +9,19 @@
 //Cooking time / number of hot pockets = temperature level (Base level will be 2.50 recommended for 1 hot pocket)
 
 var baseTemp = 2.50 / 1;
-var cookingTime = prompt("Please enter counting time in decimal format.");
+var cookingTime = prompt("Please enter cooking time in decimal format.");
 var pocketNumber = prompt("How many Hot Pockets are you cooking at one time?");
 
 var pocketTemp = pocketTemp(cookingTime, pocketNumber);
-console.log(pocketTemp);
+console.log(pocketTemp + " is the pocket temperature level");
 
 function pocketTemp(time, number){
     return time / number
 }
 
+if(pocketTemp >= 2.5){
 
+}else if(pocketTemp < 2.5){
 
+}
 
