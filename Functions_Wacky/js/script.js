@@ -27,3 +27,4 @@ if(pocketTemp >= 2.5){
     alert("The temperature level of your Hot Pocket will be similar to that of The Land of Always Winter. On the plus side, at least you won't melt your tongue!");
 }
 
+//completed
