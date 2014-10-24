@@ -23,13 +23,16 @@ if(hours <= 75){
         return h * hRate
     }
     console.log("The project will cost an estimated " + normalPrice + " dollars at your normal hourly rate of " + hourlyRate +" dollars per hour.");
+    alert("The project will cost an estimated " + normalPrice + " dollars at your normal hourly rate of " + hourlyRate +" dollars per hour.");
 }else if(hours > 75){
     function discountPrice(h2,dRate){
         return h2 * dRate
     }
     console.log("The project will cost an estimated " + discountPrice + " dollars at your discount hourly rate of " + discountHourlyRate +" dollars per hour.");
+    alert("The project will cost an estimated " + discountPrice + " dollars at your discount hourly rate of " + discountHourlyRate +" dollars per hour.");
 }
 
+//completed
 
 
 
