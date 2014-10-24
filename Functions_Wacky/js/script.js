@@ -20,8 +20,8 @@ function pocketTemp(time, number){
 }
 
 if(pocketTemp >= 2.5){
-
+    console.log("The temperature level of your Hot Pocket will be similar to that of Mordor. Good Luck!")
 }else if(pocketTemp < 2.5){
-
+    console.log("The temperature level of your Hot Pocket will be similar to that of The Lands of Winter. On the plus side, at least you won't melt your tongue!")
 }
 
